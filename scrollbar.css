@@ -1,4 +1,22 @@
-::selection {
+::-webkit-scrollbar-track {
+  background-color: #002B20;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
   background-color: #285347;
-  color: #fff;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
 }
